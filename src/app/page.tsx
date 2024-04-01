@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-2/3 pt-14">
         <h3 className="text-3xl pb-5">About</h3>
         <p>
-          Hello we are just a couple of bros that are making a project for the Reykjavik University course "Cyber Security: Defense Against the Dark Arts". After the second assignment which involved writing a report about securing our own network we got inspired. The idea of Desktop Defender is easy to use and understand tool to get an insight of your home network and assist you in mitigating security threats you may not understand!
+          Hey there! We're three friends from Reykjavik University on a mission from our 'Cyber Security: Defense Against the Dark Arts' class. Inspired by a challenge to lock down our networks, we created Desktop Defender. It's a simple tool to help you understand and protect your home network from those sneaky security threats. With Desktop Defender, managing your home network is a breeze!
         </p>
       </div>
 
