@@ -13,7 +13,7 @@ export default function Home() {
         <Image src={logo} alt="Logo" width={64} height={64} className="rounded-sm" />
       </div>
 
-      <div className="mt-10 flex items-center justify-center h-12 w-80 bg-DDOrange rounded-full">
+      <div className="mt-10 flex items-center justify-center h-12 w-80 bg-DDOrange rounded-full transition-transform duration-500 ease-in-out hover:scale-105">
         <Link href="/download" passHref>
           <p className="text-xl font-medium text-center w-full h-full flex items-center justify-center">
             Click here to download
