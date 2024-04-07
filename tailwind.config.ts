@@ -16,7 +16,7 @@ const config: Config = {
     },
     colors: {
       DDOrange: "#F27F15",
-      Dark2: "#2D2D2D"
+      Dark2: "#1d232a"
     },
   },
   plugins: [],
