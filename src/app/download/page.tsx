@@ -22,26 +22,26 @@ export default function Downloads() {
                         </div>
                     </a>
 
-                    <Link href="/download.txt" download="DesktopDefender">
+                    <a href="/download.txt" download="DesktopDefender">
                         <div className="flex flex-col items-center p-6 bg-gray-800 rounded-3xl transition-transform duration-500 ease-in-out hover:scale-110">
                             <i className="devicon-apple-original text-6xl"></i>
                             <span className="mt-4 text-xl">Mac ARM</span>
                         </div>
-                    </Link>
+                    </a>
 
-                    <Link href="/download.txt" download="DesktopDefender">
+                    <a href="/download.txt" download="DesktopDefender">
                         <div className="flex flex-col items-center p-6 bg-gray-800 rounded-3xl transition-transform duration-500 ease-in-out hover:scale-110">
                             <i className="devicon-windows11-original colored text-6xl"></i>
                             <span className="mt-4 text-xl">Windows</span>
                         </div>
-                    </Link>
+                    </a>
 
-                    <Link href="/download.txt" download="DesktopDefender">
+                    <a href="/download.txt" download="DesktopDefender">
                         <div className="flex flex-col items-center p-5 bg-gray-800 rounded-3xl transition-transform duration-500 ease-in-out hover:scale-110">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" className="h-16 w-16" />
                             <span className="mt-4 text-xl">Linux</span>
                         </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
 
