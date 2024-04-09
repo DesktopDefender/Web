@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../../public/DD_logo128x128.png";
 
 export default function Downloads() {
@@ -49,6 +50,22 @@ export default function Downloads() {
           </div>
           {/* </a> */}
         </div>
+        <p className="text-lg">
+          As the applications hasn't been officially released, some settings
+          need to be configured for it to properly work on your Mac device.
+        </p>
+        <p className="text-lg">
+          Instructions on how to configure the application can be found{" "}
+          <Link
+            className="underline hover:opacity-90"
+            href={
+              "https://github.com/DesktopDefender/DesktopDefender?tab=readme-ov-file#setup-using-the-landing-page"
+            }
+          >
+            in the repository's README
+          </Link>
+          .
+        </p>
       </div>
     </main>
   );
