@@ -24,7 +24,7 @@ export default function Downloads() {
             </div>
           </a>
 
-          <a href="/download.txt" download="DesktopDefender">
+          <a href="/releases/0.1.0/Desktop Defender_0.1.0_aarch64.dmg">
             <div className="flex flex-col items-center p-6 bg-gray-800 rounded-3xl transition-transform duration-500 ease-in-out hover:scale-110">
               <i className="devicon-apple-original text-6xl" />
               <span className="mt-4 text-xl">Mac ARM</span>
