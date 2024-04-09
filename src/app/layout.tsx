@@ -14,8 +14,11 @@ export default function RootLayout({
         <title>Desktop Defender</title>
         <meta name="description" content="Here to protect your home network!" />
         <link rel="icon" type="image/png" href="/DD_logo128x128.png" />
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
       </head>
       <body className={outfit.className}>{children}</body>
     </html>
