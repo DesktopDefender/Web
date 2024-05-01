@@ -59,7 +59,7 @@ export default function Downloads() {
           <Link
             className="underline hover:opacity-90"
             href={
-              "https://github.com/DesktopDefender/DesktopDefender?tab=readme-ov-file#setup-using-the-landing-page"
+              "https://github.com/DesktopDefender/DesktopDefender?tab=readme-ov-file#1-downloading-a-binary"
             }
           >
             in the repository's README
